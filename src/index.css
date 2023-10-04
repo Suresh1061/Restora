@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Belanosima&family=Concert+One&family=Dancing+Script:wght@400;500;600;700&family=Kalam&family=Merriweather:ital,wght@1,400;1,700&family=Mulish&family=PT+Serif:ital@0;1&display=swap");
+
+body {
+  width: 100%;
+}
+
+.nav-item {
+  @apply list-none py-1 px-3 cursor-pointer rounded-md  font-medium hover:bg-[#0e8964]  active:bg-[#0e8964] hover:text-white;
+}
+
+.nav-icon {
+  @apply h-10 w-10 bg-gray-300 border rounded-full flex justify-center items-center hover:bg-[#0e8964] hover:text-white cursor-pointer;
+}
+
+/* common style property */
+
+.common-box {
+  @apply w-full  px-8 mt-[80px];
+}
+
+.heading {
+  @apply font-medium md:text-5xl text-3xl py-3  text-[#000066];
+}
+
+.para-heading {
+  @apply font-medium text-[#359f80] text-center pt-4;
+}
+
+.btn {
+  @apply w-[150px] py-2 bg-[#000066] text-white font-medium rounded-md  hover:bg-[#0000b3] hover:bg-[#0e8964];
+}
+
+/* Footer Section */
+
+.footer-list-heading {
+  @apply font-medium text-2xl py-2 text-[#000066];
+}
+
+.footer-list {
+  @apply list-none text-gray-800 py-1 hover:text-[#359f80] cursor-pointer;
+}
+
+/* Order Section */
+
+.input-style {
+  @apply my-2 py-2 font-normal w-full rounded-md px-2 bg-gray-200 outline-[#0080ff];
+}
+
+.about-btn {
+  @apply flex w-full justify-center items-center gap-2 font-medium  py-2 rounded-md bg-gray-300;
+}
+
+.favourate {
+  @apply h-10 w-10 bg-gray-300 border rounded-full flex justify-center items-center cursor-pointer absolute top-4 right-4;
+}
+
+/* .box:hover .hearticon {
+  right: 16px;
+} */
+
+
